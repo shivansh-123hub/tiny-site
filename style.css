@@ -1,0 +1,127 @@
+.logo img{
+    width: 164px;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+    
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.right ul li span{
+    padding: 0 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin: 66px;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: #00B6D1;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 70;
+    margin: 7px 6px;
+    cursor: pointer;
+
+}
+.first span{
+    font-size: 35px;
+}
+.first span img{
+    width: 100px;
+margin: 0px 20px;
+cursor: pointer;
+}
+.first p{
+font-size: 28px;
+width: 70vw;
+text-align: center;
+
+}
+.flex{
+    display: flex;
+}
+.small{
+    font-size:15px;
+}
+.download :nth-child(2){
+    font-size: 25px;
+}
+.second{
+    max-width: 50vw;
+    margin: auto;
+}
+.green{
+    background-color: #5cb85c;;
+}
+.item{
+ font-size: 24px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f9f9f9;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+}
+.item-lang{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:17px
+}
+.download{
+     display: flex;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     gap: 14px;
+}
+.download img{
+    cursor: pointer;
+    margin: 15px 1px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:980px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: white;
+}
+body{
+    MARGIN:0px 0px;
+   
+}
+
